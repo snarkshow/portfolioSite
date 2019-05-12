@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+ 
+<html>
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>laura chuang</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <header>
+            <nav class="navBar" id="navBar">
+                <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="">work</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        <div class="wrapper">
+            <h1>Laura Chuang</h1>
+            <h2>web developer.</h2>
+            <h2>librarian.</h2>
+        </div>
+    </header>
+    <main class="content">
+        <section class="aboutMe" id="about">
+            <div class="wrapper">
+                <h2>About Me</h2>
+                <p>
+                    I’m a front-end web developer with a background in legal librarianship and corporate research. </p>
+                <p> 
+                    I hold a Master of Information from the
+                    University of Toronto and I am enrolled in HackerYou's immersive web development bootcamp.
+                </p>
+                <p>
+                    I’m committed to writing precise and exacting code in the service of clean and accessible design.
+                </p>
+                <p>
+                    I’m trained in project management (CAPM), non-profit bookkeeping, and I’m always looking for new ways to dedicate time
+                    and energy to my professional community.
+                </p>
+            </div>
+        </section>
+        <section class="myWork">
+            <div class="wrapper">
+                <h2>My Work</h2>
+                <p>I'm in the middle of polishing my portfolio.  Thanks for being patient!  In the meantime, please enjoy these gifs of me engaging in some creative destruction.</p>
+                <a href="https://imgflip.com/gif/a3tpd"><img src="https://i.imgflip.com/a3tpd.gif" title="made at imgflip.com" alt="Laura, a front-end developer, flipping a table covered in cutlery and lego pieces."/></a>
+                <a href="https://imgflip.com/gif/30s5k5"><img src="https://i.imgflip.com/30s5k5.gif" title="made at imgflip.com" alt="Laura, a front-end developer, smashing an office printer with a baseball bat."/>/></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="">
+                    <i class="fas fa-envelope-square icon"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-twitter-square icon"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-medium"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-github-square icon"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-linkedin icon"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        var main = function () {
+                var menu = $('#navBar')
+
+                $(document).scroll(function () {
+                    if ($(this).scrollTop() >= $(window).height() - menu.height()) {
+                        menu.addClass('top')
+                    } else {
+                        menu.removeClass('top').addClass('bottom')
+                    }
+                })
+            }
+            $(document).ready(main);
+    </script>
+
+        
+
+        
+    </script>
+    
+</body>
+
+</html>
