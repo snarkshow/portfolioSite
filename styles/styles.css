@@ -21,7 +21,13 @@ ul{
 }
 
 .content{
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+p{
+    font-family:'Libre Baskerville', 'serif';
+    font-size: 1.3rem;
+    line-height: 2.3rem;
 }
 
 /* HEADER */
@@ -33,16 +39,20 @@ header{
     position: relative;
 }
 
+.headerTitles{
+    transform: translateY(-150px);
+}
+
 h1{
     /* font-family:'Libre Baskerville', 'serif'; */
     font-family:'Karla', 'sans-serif';
     line-height: 4rem;
-    font-size: 3.5rem;
+    font-size: 5rem;
     text-transform: lowercase;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.4rem;
     color: rgb(39, 38, 38);
     font-family:'Karla', 'sans-serif';
@@ -61,7 +71,7 @@ h2 {
 
 .navBar ul{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .navBar ul li{
@@ -70,7 +80,7 @@ h2 {
 
 .navBar a{
     color: whitesmoke;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family:'Karla', 'sans-serif';
     text-decoration: none;
 }
@@ -81,3 +91,37 @@ h2 {
     bottom: auto;
 }
 
+.aboutMe,
+.myWork{
+    /* height: 100vh; */
+    padding: 100px 0;
+}
+
+.gifs{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgb(39, 38, 38);
+    border-top: 3px whitesmoke groove;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    padding: 15px 25px;
+}
+
+footer a{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
