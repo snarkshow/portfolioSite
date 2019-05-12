@@ -24,7 +24,13 @@ ul{
     padding-top: 50px;
 }
 
+section{
+    /* height: 100vh; */
+    padding-top: 100px;
+}
+
 p{
+    color: rgb(39, 38, 38);
     font-family:'Libre Baskerville', 'serif';
     font-size: 1.3rem;
     line-height: 2.3rem;
@@ -91,17 +97,53 @@ h2 {
     bottom: auto;
 }
 
-.aboutMe,
-.myWork{
-    /* height: 100vh; */
-    padding: 100px 0;
-}
+
 
 .gifs{
     align-items: center;
     display: flex;
     justify-content: space-around;
 }
+
+/* CONTACT */
+
+h3 {
+    font-size: 1.8rem;
+    line-height: 1.4rem;
+    color: rgb(39, 38, 38);
+}
+
+.social{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.social li{
+    margin-right: 30px;  
+}
+.social a{
+    color: rgb(39, 38, 38);
+    font-family:'Karla', 'sans-serif';
+    font-size: 3rem;
+    line-height: 3rem;
+    text-decoration: none;
+
+}
+
+.connect a{
+    color: rgb(39, 38, 38);
+    font-family:'Karla', 'sans-serif';
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    text-decoration: none;
+}
+
+.contactFlex{
+    margin: 100px;
+}
+
+
+/* FOOTER */
 
 footer{
     background-color: rgb(39, 38, 38);
@@ -122,6 +164,6 @@ footer li{
 
 footer a{
     color: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-decoration: none;
 }
